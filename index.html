@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mukta:wght@300&family=Roboto:wght@700&family=Rubik:wght@300&family=Satisfy&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/owl carousel/owl.carousel.min.css" />
+    <script
+      src="https://kit.fontawesome.com/091865038a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>MegaParts</title>
+  </head>
+  <body>
+    <!--Main Navbar-->
+    <div class="navbar-bg w-100">
+      <div class="container">
+        <div class="row">
+          <div class="col navbar">
+            <img src="images/megapartslogo.svg" alt="logo" />
+            <div class="line"></div>
+            <p><span>MEGA</span>CARS</p>
+            <p class="mega-offer"><span>MEGA</span>ОБЯВИ</p>
+            <img src="/icons/chat.svg" alt="chat-icon" />
+            <img src="/icons/basket.svg" alt="basket" />
+            <img src="/icons/favorites.svg" alt="favorites" />
+            <div class="line"></div>
+            <img src="/icons/login-icon.svg" alt="login-icon" />
+            <p class="login-text">ВХОД</p>
+            <div class="line"></div>
+            <img src="/icons/social-media.svg" alt="social-media-icon" />
+            <div class="line"></div>
+            <img src="/icons/contact.svg" alt="contact-icon" />
+            <p>02 437 32 48</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SUBNAV-BG-->
+    <div class="sub-navbar-bg w-100">
+      <div class="container">
+        <div class="row navbar sub-nav">
+          <div class="home">
+            <img src="/icons/home-icon.svg" alt="home-icon" />
+          </div>
+          <div class="home long blue">
+            <img src="/icons/parts-icon.svg" alt="parts-icon" />АВТОЧАСТИ
+          </div>
+          <div class="home long green">
+            <img src="/icons/merchant-icon.svg" alt="merchant-icon" />БОРСА
+            ЧАСТИ
+          </div>
+          <div class="home long light-green">
+            <img src="/icons/car-icon.svg" alt="car-icon" />АВТОБОРСА
+          </div>
+          <div class="home long orange">
+            <img
+              src="/icons/steering-wheel-icon.svg"
+              alt="steering-wheel-icon"
+            />ПРОДАВА КОЛИ
+          </div>
+          <div class="home long beige">
+            <img src="/icons/parts-icon.svg" alt="parts-icon" />ПРОДАВА ЧАСТИ
+          </div>
+          <div class="home long purple">
+            <img src="/icons/controller.svg" alt="controller" />ИГРИ
+          </div>
+          <div class="home long insurance">
+            <img
+              src="/icons/insurance-icon.svg"
+              alt="insurance-icon"
+            />ЗАСТРАХОВКА
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SEARCH FIELD-->
+    <div class="search-field-bg w-100">
+      <div class="container">
+        <div class="row search-field">
+          <img
+            class="pointer-icon"
+            src="/icons/Pointer.svg"
+            alt="pointer-icon"
+          />
+          <div class="col-md-4 p-2 search-container">
+            <div class="row mt-2">
+              <div class="col-4 search-text">
+                <img src="/icons/search-icon.svg" alt="search-icon" />Бързо
+                Търсене
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col d-flex align-items-center">
+                <input
+                  class="w-100"
+                  type="text"
+                  name="product"
+                  placeholder="Търсене на Част, марка, категория, обява или др."
+                />
+              </div>
+              <div class="col-auto d-flex align-items-center">
+                <button class="search-btn">Търсене</button>
+              </div>
+            </div>
+            <div class="row search-menu">
+              <div class="col"><div class="menu-options">Всичко</div></div>
+              <div class="col"><div class="menu-options">Авточасти</div></div>
+              <div class="col"><div class="menu-options">Борса Части</div></div>
+              <div class="col"><div class="menu-options">Автоборса</div></div>
+              <div class="col">
+                <div class="menu-options">Продава Коли</div>
+              </div>
+              <div class="col">
+                <div class="menu-options">Продава Части</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid g-0">
+      <div class="row">
+        <div class="col navbar">
+          <img src="images/megapartslogo.svg" alt="logo">
+          <div class="line"></div>
+          <p><span>MEGA</span>CARS</p>
+          <p class="mega-offer"><span>MEGA</span>ОБЯВИ</p>
+          <img src="/icons/chat.svg" alt="chat-icon">
+          <img src="/icons/basket.svg" alt="basket">
+          <img src="/icons/favorites.svg" alt="favorites">
+          <div class="line"></div>
+          <img src="/icons/login-icon.svg" alt="login-icon">
+          <p class="login-text">ВХОД</p>
+          <div class="line"></div>
+          <img src="/icons/social-media.svg" alt="social-media-icon">
+          <div class="line"></div>
+          <img src="/icons/contact.svg" alt="contact-icon">
+          <p>02 437 32 48</p>
+        </div>
+      </div>
+      <div class="row navbar sub-nav">
+        <div class="home"><img src="/icons/home-icon.svg" alt="home-icon"></div>
+        <div class="home long blue"><img src="/icons/parts-icon.svg" alt="parts-icon">АВТОЧАСТИ</div>
+        <div class="home long green"><img src="/icons/merchant-icon.svg" alt="merchant-icon">БОРСА ЧАСТИ</div>
+        <div class="home long light-green"><img src="/icons/car-icon.svg" alt="car-icon">АВТОБОРСА</div>
+        <div class="home long orange"><img src="/icons/steering-wheel-icon.svg" alt="steering-wheel-icon">ПРОДАВА КОЛИ</div>
+        <div class="home long beige"><img src="/icons/parts-icon.svg" alt="parts-icon">ПРОДАВА ЧАСТИ</div>
+        <div class="home long purple"><img src="/icons/controller.svg" alt="controller">ИГРИ</div>
+        <div class="home long insurance"><img src="/icons/insurance-icon.svg" alt="insurance-icon">ЗАСТРАХОВКА</div>
+      </div>
+
+      <div class="row search-field-background">
+        <img class="pointer-icon" src="/icons/Pointer.svg" alt="pointer-icon">
+        <div class="col-md-4 p-2 search-container">
+          <div class="row mt-2">
+            <div class="col-4 search-text"><img src="/icons/search-icon.svg" alt="search-icon">Бързо Търсене</div>
+          </div>
+          <div class="row mt-4">
+            <div class="col d-flex align-items-center">
+              <input class="w-100" type="text" name="product" placeholder="Търсене на Част, марка, категория, обява или др.">
+            </div>
+            <div class="col-auto d-flex align-items-center">
+              <button class="search-btn">Търсене</button>
+            </div>
+          </div>
+          <div class="row search-menu">
+            <div class="col menu-options">Всичко</div>
+            <div class="col menu-options">Авточасти</div>
+            <div class="col menu-options">Борса Части</div>
+            <div class="col menu-options">Автоборса</div>
+            <div class="col menu-options">Продава Коли</div>
+            <div class="col menu-options">Продава Части</div>
+          </div>
+        </div>
+      </div>
+
+    </div> -->
+    <!-- Carousel Effect-->
+    <div class="row">
+      <div id="carouselIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <!--Carousel images-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/images/carousel1.jpg"
+              class="d-block w-100"
+              alt="carousel-img"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/images/carousel2.jpg"
+              class="d-block w-100"
+              alt="carousel-img"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/images/carousel3.jpg"
+              class="d-block w-100"
+              alt="carousel-img"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row features">
+        <img src="/icons/deliver-icon.svg" alt="deliver-icon" />
+        <div class="col">
+          Експресна Доставка
+          <p>Доставяме до всяка точна на България</p>
+        </div>
+        <img src="/icons/packaging-icon.svg" alt="packaging-icon" />
+        <div class="col">
+          Нови части всеки ден
+          <p>Ежедневно зареждаме нова стока.</p>
+        </div>
+        <img src="/icons/container-icon.svg" alt="container-icon" />
+        <div class="col">
+          Проверено качество
+          <p>Авточасти с гаранция.</p>
+        </div>
+        <img src="/icons/return-icon.svg" alt="return-icon" />
+        <div class="col">
+          Право на връщане
+          <p>14 дни право на връщане на всяка поръчка.</p>
+        </div>
+      </div>
+      <div class="row product-section mt-5 justify-content-center">
+        <div class="col">
+          <div class="ad-spot w-100">
+            <img src="/icons/parts-icon.svg" alt="parts-icon" />
+            <h2>Авточасти</h2>
+            <p>Най-големия онлайн магазин за авточасти в България!</p>
+            <button>Разгледай <i class="fa-solid fa-chevron-right"></i></button>
+            <!--Had issues with the Figma icon, decided to implement font-awesome and use one of theirs-->
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="first-product w-100">
+            <img
+              class="product-image"
+              src="/images/headlight.png"
+              alt="product-image.png"
+            />
+            <h6>
+              Фар за Audi A5 Coupe I(06.2007-01.2017), купе, позиция: дясна
+            </h6>
+            <!--Straight line does not seem to be liked by vs code by alt and slash-->
+            <p>Кат. №: s_167232784 <span>967,70лв </span></p>
+          </div>
+        </div>
+        <div class="col">
+          <img
+            class="product-image"
+            src="/images/headlight2.png"
+            alt="product-image.png"
+          />
+          <h6>Фар за Audi A5 Coupe I(06.2007-01.2017), купе, позиция: дясна</h6>
+          <!--Straight line does not seem to be liked by vs code by alt and slash-->
+          <p>Кат. №: s_167232784 <span>967,70лв </span></p>
+        </div>
+        <div class="col">
+          <img
+            class="product-image"
+            src="/images/headlight3.png"
+            alt="product-image.png"
+          />
+          <h6>Фар за Audi A5 Coupe I(06.2007-01.2017), купе, позиция: дясна</h6>
+          <!--Straight line does not seem to be liked by vs code by alt and slash-->
+          <p>Кат. №: s_167232784 <span>967,70лв </span></p>
+        </div>
+      </div>
+      <br />
+      <span class="last-offers">Последни оферти и запитвания:</span>
+      <div class="row mt-4 justify-content-center">
+        <div class="col d-flex align-items-center justify-content-center">
+          <div class="more-offers w-100">
+            <img
+              class="product-image"
+              src="/images/headlight3.png"
+              alt="product-image.png"
+            />
+            <h6>
+              <span class="purchasing">КУПУВАМ</span> Фар за Audi A5 Coupe
+              I(06.2007-01.2017)
+            </h6>
+            <!--Straight line does not seem to be liked by vs code by alt and slash-->
+            <p>Кат. №: s_167157764</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <div class="more-offers w-100">
+            <img
+              class="product-image"
+              src="/images/headlight3.png"
+              alt="product-image.png"
+            />
+            <h6>
+              <span class="selling">ОФЕРТА ЗА</span> Фар за Audi A5 Coupe
+              I(06.2007-01.2017)
+            </h6>
+            <!--Straight line does not seem to be liked by vs code by alt and slash-->
+            <p>Кат. №: s_164242284</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <div class="more-offers w-100">
+            <img
+              class="product-image"
+              src="/images/headlight3.png"
+              alt="product-image.png"
+            />
+            <h6>
+              <span class="purchasing">КУПУВАМ</span> Фар за Audi A5 Coupe
+              I(06.2007-01.2017)
+            </h6>
+            <!--Straight line does not seem to be liked by vs code by alt and slash-->
+            <p>Кат. №: s_167839784</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <div class="second-ad-spot w-100">
+            <img src="/icons/merchant-icon.svg" alt="parts-icon" />
+            <h2>Авточасти</h2>
+            <p>Най-голямата борса за авточасти в България!</p>
+            <button>Разгледай <i class="fa-solid fa-chevron-right"></i></button>
+            <!--Had issues with the Figma icon, decided to implement font-awesome and use one of theirs-->
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col d-flex align-items-center justify-content-center mt-5">
+          <div class="offers"></div>
+          <div class="second-ad-spot services light-blue w-100">
+            <img src="/icons/car-icon.svg" alt="car-icon" />
+            <h2>Автоборса</h2>
+            <p>Залагане, търгуване и продаване на автомобили.</p>
+            <button>Разгледай <i class="fa-solid fa-chevron-right"></i></button>
+            <!--Had issues with the Figma icon, decided to implement font-awesome and use one of theirs-->
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center mt-5">
+          <div class="second-ad-spot second-services orange w-100">
+            <img
+              src="/icons/steering-wheel-icon.svg"
+              alt="steering-wheel-icon"
+            />
+            <h2>Продава коли</h2>
+            <p>Обяви за коли.</p>
+            <p>Част от <span>MEGACARS</span></p>
+            <!--issue with adding text below button -will have to be patched-->
+            <button>
+              Към MEGACARS <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <!--Had issues with the Figma icon, decided to implement font-awesome and use one of theirs-->
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center mt-5">
+          <div class="second-ad-spot third-services beige w-100">
+            <img src="/icons/parts-icon.svg" alt="parts-icon" />
+            <h2>Продава Части</h2>
+            <p>Обяви за части.</p>
+            <p class="subtext">Част от <span>MEGAОбЯВИ.</span></p>
+            <!--Same issue with adding text below button - to be patched-->
+            <button>
+              Към MEGAОБЯВИ <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <!--Had issues with the Figma icon, decided to implement font-awesome and use one of theirs-->
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center mt-5">
+          <div class="second-ad-spot fourth-services purple w-100">
+            <img src="/icons/controller.svg" alt="controller-icon" />
+            <h2>Игри</h2>
+            <p>Забавления за ценители.</p>
+            <button>Разгледай <i class="fa-solid fa-chevron-right"></i></button>
+            <!--Had issues with the Figma icon, decided to implement font-awesome and use one of theirs-->
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 justify-content-center">
+        <div class="col d-flex align-items-center justify-content-center">
+          <div class="insurance-service insurance-orange w-100">
+            <h4>
+              <img src="/icons/redheart.svg" alt="heart-icon" /> Застраховки
+            </h4>
+            <p>Застраховай автомобила си.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <div class="insurance-service credit-green w-100">
+            <h4><img src="/icons/credit.svg" alt="" /> Кредити</h4>
+            <p><span>MEGA</span> в нужда се познава.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <div class="insurance-service diary-blue w-100">
+            <h4><img src="/icons/diary.svg" alt="" /> Автодневник</h4>
+            <p>Твоят Автодневник.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <div class="insurance-service news-blue w-100">
+            <h4><img src="/icons/news.svg" alt="" /> Новини</h4>
+            <p>Всико в света на колите.</p>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="swiper mySwiper">
+          <!-- Used the Swiper library here to implement the  carousel review-->
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/icons/quote.svg" alt="quote-icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus unde doloremque quas libero excepturi qui!
+              </p>
+              <img class="user-icon" src="/icons/user.svg" alt="" />
+              <h6>Виктор Марков</h6>
+              <div class="user-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/icons/quote.svg" alt="quote-icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus unde doloremque quas libero excepturi qui!
+              </p>
+              <img class="user-icon" src="/icons/user.svg" alt="" />
+              <h6>Мартин Илиев</h6>
+              <div class="user-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/icons/quote.svg" alt="quote-icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus unde doloremque quas libero excepturi qui!
+              </p>
+              <img class="user-icon" src="/icons/user.svg" alt="" />
+              <h6>Николай Гредански</h6>
+              <div class="user-stars">&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/icons/quote.svg" alt="quote-icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus unde doloremque quas libero excepturi qui!
+              </p>
+              <img class="user-icon" src="/icons/user.svg" alt="" />
+              <h6>Виолета Тифова</h6>
+              <div class="user-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/icons/quote.svg" alt="quote-icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus unde doloremque quas libero excepturi qui!
+              </p>
+              <img class="user-icon" src="/icons/user.svg" alt="" />
+              <h6>Магдалена Асенова</h6>
+              <div class="user-stars">&#9733;&#9733;&#9733;&#9733;</div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </section>
+
+      <div class="row">
+        <div class="col">
+          <div class="map">
+            <img src="/icons/map.svg" alt="map-icon">
+            <img class="bubble-icon" src="/icons/bubble.svg" alt="">
+            <!-- <div class="bubble-expansion">
+              <p>MEGAPARTS Sofia</p>
+              <p>Ул. Васил Левски 123</p>
+            </div> -->
+            <img class="part-two" src="/icons/partTwo.svg" alt="">
+            <img class="part-three" src="/icons/partThree.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col mt-4">
+            <div class="helpful-for-you">
+              <h4>Полезно за вас</h4>
+              <br />
+              <p>Формуляр за връщане</p>
+              <br />
+              <p>Мнения за MEGAPARTS</p>
+              <br />
+              <p>Регистрирай се за продавач</p>
+            </div>
+            <div class="row">
+              <div class="col mt-3">
+                <div class="online-price">Онлайн оценка на колата ви</div>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-4">
+            <div class="online-shopping">
+              <h4>Онлайн Пазаруване</h4>
+              <br />
+              <p>Общи условия на платформата</p>
+              <p>Общи условия на MEGAPARTS борса</p>
+              <p>Общи условия на Вендор</p>
+              <p>Политика за иползване на "Бисквитки"</p>
+              <p>Политика за защита на лични данни</p>
+            </div>
+          </div>
+          <div class="col mt-4">
+            <div class="about-us">
+              <h4>За Нас</h4>
+              <br />
+              <p>Представяне</p>
+              <p>Социални Мрежи</p>
+              <p>02 437 32 48</p>
+              <p>at@megaparts.bg</p>
+            </div>
+          </div>
+          <div class="col mt-4">
+            <div class="footer-logo">
+              <img src="/images/megapartslogo.svg" alt="" />
+              <p class="copyright">2023 © MEGAPARTS Marketplace</p>
+              <p><span class="footer-megacars">MEGA</span>CARS</p>
+              <p><span class="footer-megaoffers">MEGA</span>ОБЯВИ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/owl carousel/owl.carousel.min.js"></script>
+  </body>
+</html>
